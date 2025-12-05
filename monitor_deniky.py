@@ -34,18 +34,12 @@ EMAIL_SUBJECT_PREFIX = "[MONITORING DENNIKY]"
 KEYWORDS = [
     "ministerstvo vnútra",
     "minister vnútra",
-    "cestovný pas",
-    "pasy",
     "doklady",
     "eDoklady",
-    "krízová situácia",
     "mimoriadna situácia",
-    "bezpečnosť",
-    "útok",
     "atentát",
-    "šutaj eštok"
+    "šutaj eštok",
     "eštok",
-    "hamran",
   
 ]
 
