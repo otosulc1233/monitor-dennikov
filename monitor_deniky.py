@@ -34,8 +34,6 @@ EMAIL_SUBJECT_PREFIX = "[MONITORING DENNIKY]"
 KEYWORDS = [
     "ministerstvo vnútra",
     "minister vnútra",
-    "polícia",
-    "policajný zbor",
     "cestovný pas",
     "pasy",
     "doklady",
@@ -45,9 +43,10 @@ KEYWORDS = [
     "bezpečnosť",
     "útok",
     "atentát",
-    "šutaj eštok",
+    "šutaj eštok"
+    "eštok,
     "hamran",
-    "kriminalita",
+  
 ]
 
 # RSS zdroje – URL si vieš doladiť podľa toho, čo presne chceš sledovať
@@ -64,23 +63,26 @@ SOURCES = [
     },
     {
         "name": "Pravda",
-        "rss_url": "https://spravy.pravda.sk/rss/",
+        # RSS feed pre domáce správy (stabilný XML feed)
+        # podľa RSS katalógov: spravy.pravda.sk/domace/rss/xml
+        "rss_url": "https://spravy.pravda.sk/domace/rss/xml",
         "extra_keywords": [],
     },
     {
         "name": "SME",
-        # Všeobecný RSS feed SME - Správy
-        # https://sme.sk -> Správy -> RSS
-        "rss_url": "https://rss.sme.sk/rss/rss.asp?sek=spravy",
+        # Hlavné správy SME – historický RSS endpoint
+        # ak by časom robil bordel, vieme SME vypnúť alebo nahradiť
+        "rss_url": "http://rss.sme.sk/rss/rss.asp?sek=spravy",
         "extra_keywords": [],
     },
-    # Plus 1 deň dočasne vypnutý – nemá stabilný verejný RSS feed
-    # {
-    #     "name": "Plus1Den",
-    #     "rss_url": "SEM_TRBA_DAŤ PLATNÝ RSS FEED, KEĎ HO BUDEME MAŤ",
-    #     "extra_keywords": [],
-    # },
+    {
+        "name": "Plus1Den",
+        # Plus One Day / Pluska – RSS feed xml
+        "rss_url": "https://www1.pluska.sk/rss.xml",
+        "extra_keywords": [],
+    },
 ]
+
 
 
 # ==========================
@@ -210,6 +212,10 @@ def fetch_source(source: dict, global_keywords: list, seen: dict):
     Stiahne RSS daného zdroja a vráti nové články, ktoré:
       - ešte neboli videné
       - zodpovedajú kľúčovým slovám
+
+    POZOR: aj keď je feed "bozo" (nie úplne validný XML),
+    skúšame z neho vytiahnuť položky – veľa médií má chyby v RSS,
+    ale dá sa to čítať.
     """
     name = source["name"]
     rss_url = source["rss_url"]
@@ -223,7 +229,11 @@ def fetch_source(source: dict, global_keywords: list, seen: dict):
     feed = feedparser.parse(rss_url)
 
     if feed.bozo:
+        # len upozorníme, ale NEVRACIAME – ideme skúsiť entries
         print(f"  UPOZORNENIE: Problém pri čítaní RSS ({name}): {feed.bozo_exception}")
+
+    if not getattr(feed, "entries", None):
+        print(f"  Žiadne položky v RSS (alebo sa nepodarilo načítať).")
         return []
 
     matches = []
@@ -258,6 +268,7 @@ def fetch_source(source: dict, global_keywords: list, seen: dict):
 
     print(f"  Nové relevantné články: {len(matches)}")
     return matches
+
 
 
 # ==========================
