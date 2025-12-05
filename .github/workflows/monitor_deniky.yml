@@ -1,0 +1,43 @@
+name: Monitoring dennikov
+
+on:
+  schedule:
+    # každých 5 minút
+    - cron: "*/5 * * * *"
+  # manuálne spustenie z UI
+  workflow_dispatch:
+
+jobs:
+  run-monitor:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write   # aby mohol commitnúť súbory
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: |
+          pip install -r requirements.txt
+
+      - name: Run monitoring script
+        run: |
+          python monitor_deniky.py
+
+      - name: Commit updated log files (if changed)
+        run: |
+          if [ -n "$(git status --porcelain)" ]; then
+            git config user.name "github-actions[bot]"
+            git config user.email "github-actions[bot]@users.noreply.github.com"
+            git add seen_articles.json alerts_log.csv
+            git commit -m "Update monitoring logs [skip ci]" || echo "No changes to commit"
+            git push
+          else
+            echo "No changes to commit."
+          fi
