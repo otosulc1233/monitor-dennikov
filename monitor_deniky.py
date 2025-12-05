@@ -44,7 +44,7 @@ KEYWORDS = [
     "útok",
     "atentát",
     "šutaj eštok"
-    "eštok,
+    "eštok",
     "hamran",
   
 ]
