@@ -9,7 +9,8 @@
     "https://dennikn.sk/4997662/dal-som-sa-obrezat-pre-zdravotny-problem-nerozumiem-preco-to-muzi-neriesia-vravi-styridsiatnik-matus/",
     "https://dennikn.sk/5010439/trumpov-svet-319-den-najskor-si-mysleli-ze-idu-na-slobodu-ako-mexiko-tajne-previezlo-narkomafianov-do-najtvrdsich-vaznic-v-usa/",
     "https://dennikn.sk/5008445/tyzden-v-prave-rada-prochazku-ako-sa-robia-ramena/",
-    "https://dennikn.sk/5010279/orgovanova-premier-fico-ziadal-empatiu-po-atentate-teraz-ju-odopiera-zene-ktorej-uhoreli-deti/"
+    "https://dennikn.sk/5010279/orgovanova-premier-fico-ziadal-empatiu-po-atentate-teraz-ju-odopiera-zene-ktorej-uhoreli-deti/",
+    "https://dennikn.sk/5010598/je-pomoc-topiacim-sa-utecencom-na-mori-zachranou-zivotov-alebo-napomahanim-nelegalnej-migracii/"
   ],
   "Aktuality": [
     "https://www.aktuality.sk/clanok/Wk1p4GY/nemecky-bundestag-schvalil-zakon-o-zavedeni-brannej-povinnosti-pripadna-povinna-vojenska-sluzba-zalezi-na-zakone/",
@@ -26,9 +27,52 @@
     "https://www.aktuality.sk/clanok/zCNu3gz/napatie-okolo-kryptoafery-v-polsku-pokracuje-premier-tusk-odhalil-ruske-stopy-na-tajnom-rokovani/",
     "https://www.aktuality.sk/clanok/c8qvQ7q/oszkar-vilagi-konci-na-poste-generalneho-riaditela-slovnaftu/",
     "https://www.aktuality.sk/clanok/d2m4zZA/hlas-znova-padol-a-blizi-sa-k-hranici-zvolitelnosti-agentura-nms-ukazala-novy-prieskum/",
-    "https://www.aktuality.sk/clanok/XqxwOjD/neznamy-muz-prepadol-kosicke-zlatnictvo-najprv-prisiel-ako-zakaznik-potom-vytiahol-zbran-na-zamestnancov/"
+    "https://www.aktuality.sk/clanok/XqxwOjD/neznamy-muz-prepadol-kosicke-zlatnictvo-najprv-prisiel-ako-zakaznik-potom-vytiahol-zbran-na-zamestnancov/",
+    "https://www.aktuality.sk/clanok/wotqKsz/statny-ustav-pre-kontrolu-lieciv-oznamil-koniec-dovozu-viacerych-foriem-inzulinu-od-roku-2027/"
   ],
-  "Pravda": [],
-  "Plus1Den": [],
+  "Pravda": [
+    "https://spravy.pravda.sk/domace/clanok/777529-kam-sa-bezny-clovek-nikdy-nedostane-za-murmi-vatikanu-odhalili-slovenske-dielo/?utm_source=pravda&utm_medium=rss&utm_campaign=rss",
+    "https://spravy.pravda.sk/domace/clanok/777508-slovenske-ministerstvo-obrany-uzavrelo-ramcovu-zmluvu-so-zvs-holding-na-municiu/?utm_source=pravda&utm_medium=rss&utm_campaign=rss",
+    "https://spravy.pravda.sk/domace/clanok/777495-ps-iniciuje-kontrolu-na-sis-prislusnici-v-liste-opisali-ako-to-v-tajnej-sluzbe-funguje/?utm_source=pravda&utm_medium=rss&utm_campaign=rss",
+    "https://spravy.pravda.sk/domace/clanok/777494-takac-legislativa-tykajuca-sa-chovu-spolocenskych-zvierat-sa-sprisni/?utm_source=pravda&utm_medium=rss&utm_campaign=rss",
+    "https://spravy.pravda.sk/domace/clanok/777469-co-znamena-slayada-a-kto-je-ema-lacova-sporny-statny-nakup-prerastol-rozruch-okolo-slangoveho-slovicka/?utm_source=pravda&utm_medium=rss&utm_campaign=rss",
+    "https://spravy.pravda.sk/domace/clanok/777466-najdoveryhodnejsim-politikom-na-slovensku-je-prezident-peter-pellegrini-najvyssiu-mieru-nedovery-ma-matovic/?utm_source=pravda&utm_medium=rss&utm_campaign=rss",
+    "https://spravy.pravda.sk/domace/clanok/777450-sulik-v-ide-o-pravdu-nechavam-si-priestor-na-navrat-do-politiky-mozno-aj-v-sas-pad-vlady-bolo-zlyhanie-ale-matovic-rozbijal-rozp/?utm_source=pravda&utm_medium=rss&utm_campaign=rss",
+    "https://spravy.pravda.sk/domace/clanok/777460-poslanci-v-piatok-pokracuju-rozpravou-k-zmenam-v-ochrane-oznamovatelov/?utm_source=pravda&utm_medium=rss&utm_campaign=rss",
+    "https://spravy.pravda.sk/domace/clanok/777459-na-haanovej-ulici-v-bratislavskej-petrzalke-nasli-obeseneho-muza/?utm_source=pravda&utm_medium=rss&utm_campaign=rss",
+    "https://spravy.pravda.sk/domace/clanok/777153-prvy-velky-milnik-najomneho-byvania-investor-z-danoveho-raja-chce-postavit-stovky-bytov-rocne-zvladneme-to-tvrdi/?utm_source=pravda&utm_medium=rss&utm_campaign=rss",
+    "https://spravy.pravda.sk/domace/clanok/777393-poznate-pravidla-vatikanu-odbornicka-na-protokol-za-papezom-moze-prist-v-bielej-len-zopar-vynimiek/?utm_source=pravda&utm_medium=rss&utm_campaign=rss",
+    "https://spravy.pravda.sk/domace/clanok/777396-kmec-sa-ohradil-proti-ps-ktore-na-neho-utoci-pre-voderady-prekazil-som-im-kseft-tvrdi/?utm_source=pravda&utm_medium=rss&utm_campaign=rss",
+    "https://spravy.pravda.sk/domace/clanok/777390-kolikova-upozornila-na-zvlastnu-vyzvu-vyhlasenu-rezortom-spravodlivosti-trva-iba-tri-dni-a-v-hre-je-milion-eur/?utm_source=pravda&utm_medium=rss&utm_campaign=rss",
+    "https://spravy.pravda.sk/domace/clanok/777387-fico-ziadne-odskodnenie-po-tragickych-poziaroch-nebude/?utm_source=pravda&utm_medium=rss&utm_campaign=rss",
+    "https://spravy.pravda.sk/domace/clanok/777370-machala-slogany-ako-just-do-it-musia-byt-po-slovensky-rezort-kultury-pripravuje-zakon-o-statnom-jazyku/?utm_source=pravda&utm_medium=rss&utm_campaign=rss",
+    "https://spravy.pravda.sk/domace/clanok/777363-proces-s-unoscom-studentky-pokracuje-opat-s-vylucenim-verejnosti-predvolali-dalsieho-znalca/?utm_source=pravda&utm_medium=rss&utm_campaign=rss",
+    "https://spravy.pravda.sk/domace/clanok/777348-prokurator-navrhuje-pre-brhela-v-kauze-mytnik-bezpodmienecny-trest/?utm_source=pravda&utm_medium=rss&utm_campaign=rss",
+    "https://spravy.pravda.sk/domace/clanok/777332-pellegrini-vo-vatikane-na-audiencii-ho-sprevadzala-mama-papezovi-priniesol-tri-dary/?utm_source=pravda&utm_medium=rss&utm_campaign=rss",
+    "https://spravy.pravda.sk/domace/clanok/777323-poslanci-rokuju-o-zmene-uoo-sutaj-estok-odmieta-ze-by-slo-o-pomstu/?utm_source=pravda&utm_medium=rss&utm_campaign=rss",
+    "https://spravy.pravda.sk/domace/clanok/777268-kde-sa-koalicia-bije-huliak-vitazi-prida-sa-k-nemu-dalsi-poslanec/?utm_source=pravda&utm_medium=rss&utm_campaign=rss"
+  ],
+  "Plus1Den": [
+    "https://www1.pluska.sk/spravy/v-nemecku-je-dusno-vlada-schvalila-brannu-povinnost-pre-mladych-muzov",
+    "https://www1.pluska.sk/rady-a-tipy/pozor-niektore-druhy-inzulinov-na-slovensku-koncia-kedy-a-co-bude-dalej-sukl-reaguje",
+    "https://www1.pluska.sk/soubiznis/foto-slovensky-moderator-oznamil-zdrvujucu-spravu-sance-na-prezitie-su-mizive",
+    "https://www1.pluska.sk/spravy/iniciativa-lekari-nahlas-vyzyva-premiera-aby-odvolal-p-kotlara-z-funkcie",
+    "https://www1.pluska.sk/soubiznis/spevacka-sima-oznamila-fanusikom-obrovsku-novinku-cakam-babatko-prva-foto-s-bruskom",
+    "https://www1.pluska.sk/spravy/slovensko-ako-hlavny-vyrobca-municie-na-svete-podpisali-sme-zmluvu-za-58-miliard-eur",
+    "https://www1.pluska.sk/spravy/video-slovensko-ma-novy-viral-slayadu-spieva-uz-aj-meciar-bola-to-topka-pre-kazdeho-z-nas",
+    "https://www1.pluska.sk/spravy/foto-najvacsia-zahada-vyriesena-kto-postavil-sochy-moai-pred-900-rokmi-nove-objavy-fascinuju",
+    "https://www1.pluska.sk/krimi/muz-s-maskou-na-tvari-sa-pokusil-vylupit-zaloznu-v-bratislave-stalo-sa-vsak-nieco-necakane",
+    "https://www1.pluska.sk/spravy/drama-v-oblakoch-boeing-s-vyse-160-cestujucimi-musel-nudzovo-pristat-co-sa-na-palube-stalo",
+    "https://www1.pluska.sk/spravy/aktualne-europa-ma-prevziat-hlavnu-obrannu-ulohu-v-nato-do-roku-2027-tvrdia-zdroje-z-usa",
+    "https://www1.pluska.sk/spravy/legislativa-tykajuca-sa-chovu-spolocenskych-zvierat-sa-sprisni-vyhlasil-takac",
+    "https://www1.pluska.sk/spravy/drzme-palce-nasim-olympionikom-v-milane-a-cortine-za-odkaz-pre-sportovcov-limitovany-produkt",
+    "https://www1.pluska.sk/soubiznis/haberove-slova-o-ficovi-rozputali-burku-drsny-odkaz-od-maigu-byvali-partaci-opat-na-noze",
+    "https://www1.pluska.sk/spravy/realita-ktora-vzbudzuje-vazne-otazky-financna-sprava-zhabala-tovar-za-vyse-60-milionov",
+    "https://www1.pluska.sk/spravy/tu-a-teraz-slayada-v4-s3-a-ine-skratky-tohto-tyzdna",
+    "https://www1.pluska.sk/premium/spravy/foto-kate-winslet-ukazala-dospele-deti-dcera-zatienila-mamu-a-to-ste-este-nevideli-syna-aha",
+    "https://www1.pluska.sk/premium/krimi/pred-rokmi-stefan-50-rozstvrtil-manzelku-agatu-39-v-dome-v-budci-kto-nehnutelnost-kupil",
+    "https://www1.pluska.sk/soubiznis/dramaticke-finale-dunaja-co-sa-stalo-s-malou-elizou-klausovou-pozname-odpoved",
+    "https://www1.pluska.sk/krimi/foto-v-banskej-bystrici-horel-byt-totalna-spust-hasici-zachranili-jednu-osobu"
+  ],
   "SME": []
 }
