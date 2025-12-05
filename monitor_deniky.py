@@ -54,34 +54,34 @@ KEYWORDS = [
 SOURCES = [
     {
         "name": "DennikN",
-        # Hlavný feed všetkých článkov (ak by nešiel, pozri ich stránku s RSS a zmeň)
-        # https://dennikn.sk/rss-odber/
         "rss_url": "https://dennikn.sk/feed",
         "extra_keywords": [],
     },
     {
         "name": "Aktuality",
-        # Všeobecný RSS export správ
-        # https://www.aktuality.sk/rss/zoznam/
         "rss_url": "https://www.aktuality.sk/rss/",
         "extra_keywords": [],
     },
     {
         "name": "Pravda",
-        # Správy Pravda.sk – podľa ich RSS info stránky
-        # https://www.pravda.sk/info/7008-rss-info/
-        "rss_url": "https://www.pravda.sk/rss/",
+        "rss_url": "https://spravy.pravda.sk/rss/",
         "extra_keywords": [],
     },
     {
-        "name": "Plus1Den",
-        # RSS kanál Pluska / Plus jeden deň – podľa ich RSS stránky
-        # https://www1.pluska.sk/archiv/rss-kanal
-        # Ak chceš konkrétnejšiu rubriku, pokojne URL uprav.
-        "rss_url": "https://www1.pluska.sk/rss",
+        "name": "SME",
+        # Všeobecný RSS feed SME - Správy
+        # https://sme.sk -> Správy -> RSS
+        "rss_url": "https://rss.sme.sk/rss/rss.asp?sek=spravy",
         "extra_keywords": [],
     },
+    # Plus 1 deň dočasne vypnutý – nemá stabilný verejný RSS feed
+    # {
+    #     "name": "Plus1Den",
+    #     "rss_url": "SEM_TRBA_DAŤ PLATNÝ RSS FEED, KEĎ HO BUDEME MAŤ",
+    #     "extra_keywords": [],
+    # },
 ]
+
 
 # ==========================
 # POMOCNÉ FUNKCIE
